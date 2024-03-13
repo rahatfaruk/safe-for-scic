@@ -25,7 +25,7 @@ function AssignmentMarksForm({assignmentAmount, updateAllMarks}) {
   }
 
   return (
-    <form className="max-w-md p-4 mx-auto mb-8 space-y-4 bg-gray-200 shadow-md" onSubmit={handleSubmit}>
+    <form className="max-w-md px-4 py-8 mx-auto mb-8 space-y-4 bg-gray-200 shadow-md" onSubmit={handleSubmit}>
       <h2 className="text-center text-lg">Enter your assignment marks:</h2>
 
       {Array(assignmentAmount).fill(null).map((_, index) => 
